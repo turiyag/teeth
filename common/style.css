@@ -20,6 +20,7 @@ html, body {
     height: 100%;
     font-family: headfont,Arial,Helvetica,sans-serif;
     font-size: 20px;
+	background: #FFFFFF;
 }
 
 #nav {
@@ -59,15 +60,30 @@ html, body {
     height: 50px;
 }
 
-#nav #navbar a {
+#nav #navbar div {
     display: block;
     float: left;
+	height: 50px;
+	overflow: hidden;
+}
+
+#nav #navbar div:hover {
+    background: #ed6e79;
+	overflow: visible;
+	height: initial;
+}
+
+#nav #navbar div a{
+    display: block;
     color: #FFFFFF;
+    text-decoration: none;
     font-family: headfont,Arial,Helvetica,sans-serif;
     font-size: 16px;
-    text-decoration: none;
     padding: 17px 10px;
 }
-#nav #navbar a:hover {
-    background: #ed6e79;
+
+#nav #navbar div a:hover{
+    text-decoration: underline;
 }
+
+

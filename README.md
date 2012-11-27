@@ -1,4 +1,0 @@
-teeth
-=====
-
-Dr. Good Tooth

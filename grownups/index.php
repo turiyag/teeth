@@ -10,7 +10,7 @@
 	<script type="text/javascript" src="../common/js/main.js"></script>
     <script type="text/javascript">
         $(function() {
-            $('#content').wander(50,77);
+            alert($('#content').wander(50,77).attr("id"));
         });
     </script>
 </head>
