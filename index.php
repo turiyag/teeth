@@ -30,6 +30,7 @@
     </script>
 </head>
 
+
 <body>
     <div id="splashpopups">
         <p id="kidspopup">kids</p>
