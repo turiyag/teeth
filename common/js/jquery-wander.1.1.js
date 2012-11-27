@@ -12,17 +12,20 @@
             clearTimeout($.wanderoptions.interval);
         } else {
             $.each($.wanderoptions.wanderers, function (id, opt) {
-                $(opt.elem).animate({top:opt.x + (opt.xvariance * Math.random()) + "px", left: opt.y + (opt.yvariance * Math.random()) + "px"},opt.tick);
+                var r, d, x, y;
+                r = opt.radius * Math.random();
+                d = Math.random() * 2 * Math.PI;
+                x = opt.pos.left + (Math.sin(d) * r);
+                y = opt.pos.top + (Math.cos(d) * r);
+                $(opt.elem).animate({top:y + "px", left:x + "px"},opt.tick);
             }); 
         }
     };
     $.fn.wander = function (opt) {
         var options = {
             elem:this,
-            x:0,
-            xvariance:100,
-            y:0,
-            yvariance:100,
+            pos:$(this).position(),
+            radius:200,
             tick:2000
         };
         $.extend(options, opt);
@@ -31,6 +34,7 @@
         $.wanderoptions.count++;
         if ($.wanderoptions.count == 1) {
             $.wanderoptions.interval = setInterval($.fn.wanderings,options.tick);
+            $.fn.wanderings();
         }
         return this;
     };
