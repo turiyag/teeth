@@ -12,13 +12,23 @@
 	<script type="text/javascript" src="../common/js/main.js"></script>
     <script type="text/javascript">
 		var G_vmlCanvasManager;
+		var palette = ['f0f0a0','ff0000','00ff00','0000ff','00ffff','ffff00','ff00ff','ed67fd','76dfed','8d3ef2'];
         $(function() {
-            drawBubble('body','one',200,200,100,'#f0f0a0');
-            drawBubble('body','two',300,200,100,'#00f0a0');
-            drawBubble('body','three',400,200,100,'#ff0000');
-            drawBubble('body','four',500,200,100,'#00ff00');
-            drawBubble('body','five',600,200,100,'#0000ff');
-			$('canvas').wander();
+			$.each(['a','b'], function(ipre,ival) {
+				//100,100 to
+				$.each(palette,function(i,val) {
+					var x = rbetween(100,$(window).width()-300);
+					var y = rbetween(100,$(window).height()-300);
+					drawBubble('body',val + ival,x,y,100,'#' + val);
+				});
+			});
+			$("#f0f0a0").css({position:"asbolute",top:"300px",left:"300px"});
+			// $("#f0f0a0").animate({top:"400px"},2000);
+			// $("#f0f0a0").animate({left:"400px"},{ duration: 2000, queue: false });
+			$('canvas').wander({
+				radius:100,
+				tick:1000
+			});
 			//$('#content').animate({top: "500px"});
 			$("#nav").click(function() {
 				$('#one').stopWander();
@@ -40,6 +50,9 @@
             ctx.fill();
 			$("#" + id).css({position:"absolute",top:y + "px",left:x + "px"});
         }
+		function rbetween(min,max) {
+			return Math.floor((Math.random() * (max - min)) + min);
+		}
     </script>
 </head>
 

@@ -7,14 +7,10 @@
         count:0,
         interval:undefined
     };
-    $.fn.wanderings = function () {
-        if ($.wanderoptions.count == 0) {
-            clearTimeout($.wanderoptions.interval);
-        } else {
-            $.each($.wanderoptions.wanderers, function (id, opt) {
-                $(opt.elem).animate({top:opt.x + (opt.xvariance * Math.random()) + "px", left: opt.y + (opt.yvariance * Math.random()) + "px"},opt.tick);
-            }); 
-        }
+    $.fn.wanderx = function () {
+		$.each($.wanderoptions.wanderers, function (id, opt) {
+			$(opt.elem).animate({top:opt.x + (opt.xvariance * Math.random()) + "px", left: opt.y + (opt.yvariance * Math.random()) + "px"},opt.tick);
+		}); 
     };
     $.fn.wander = function (opt) {
         var options = {
@@ -30,7 +26,7 @@
         $.wanderoptions.wanderers[$(this).prop('id')] = options;
         $.wanderoptions.count++;
         if ($.wanderoptions.count == 1) {
-            $.wanderoptions.interval = setInterval($.fn.wanderings,options.tick);
+            $.wanderoptions.interval = setInterval($.fn.wanderx,options.tick);
         }
         return this;
     };
