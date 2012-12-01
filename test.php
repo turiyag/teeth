@@ -7,26 +7,39 @@
     <link rel="stylesheet" type="text/css" href="splashstyle.css" />
 	<script type="text/javascript" src="common/js/jquery-1.8.3.min.js"></script>
 	<script type="text/javascript" src="common/js/jquery-center.1.1.js"></script>
+    <script type="text/javascript" src="common/js/modernizr.touch.js"></script>
+	<script type="text/javascript" src="common/js/jquery-me.2.0.js"></script>
     <script type="text/javascript">
         var iAnimationTime = 300;
+        var up = {};
         $(function() {
             $("#splashcontent").center();
             $("#splashpopups").center();
+            
             $(window).resize(function() {
                 $("#splashcontent").center();
                 $("#splashpopups").center();
             });
-            $("#kidspic").hover(function() {
-                $("#kidspopup").animate({top:"5px"},iAnimationTime);
-            }, function() {
+            hoverOrClick('#kidspic',function(event) {
+                $("#kidspopup").animate({top:"0px"},iAnimationTime);
+                event.preventDefault();
+            }, function(event) {
                 $("#kidspopup").animate({top:"100px"},iAnimationTime);
-            });
-            $("#grownupspic").hover(function() {
-                $("#grownupspopup").animate({top:"135px"},iAnimationTime);
+                event.preventDefault();
             }, function() {
+                return;
+            });
+            hoverOrClick('#grownupspic',function(event) {
+                $("#grownupspopup").animate({top:"135px"},iAnimationTime);
+                event.preventDefault();
+            }, function(event) {
                 $("#grownupspopup").animate({top:"70px"},iAnimationTime);
+                event.preventDefault();
+            }, function() {
+                return;
             });
         });
+        
     </script>
 </head>
 

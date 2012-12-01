@@ -6,9 +6,9 @@
                     transition: 0, // millisecond, transition time
                     minX:0, // pixel, minimum left element value
                     minY:0, // pixel, minimum top element value
-                    vertical:true, // booleen, center vertical
-                    withScrolling:true, // booleen, take care of element inside scrollTop when minX < 0 and window is small or when window is big
-                    horizontal:true // booleen, center horizontal
+                    vertical:true, // boolean, center vertical
+                    withScrolling:true, // boolean, take care of element inside scrollTop when minX < 0 and window is small or when window is big
+                    horizontal:true // boolean, center horizontal
                }, options);
                return this.each(function() {
                     var props = {position:'absolute'};

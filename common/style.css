@@ -1,4 +1,167 @@
+/*
+div {
+    outline: 1px solid red;
+}
+canvas {
+    outline: 1px solid green;
+}
+*/
+
+@font-face {
+    font-family: 'headfont';
+    src: url('fonts/amaranth-webfont.eot');
+    src: url('fonts/amaranth-webfont.eot?#naviefix') format('embedded-opentype'),
+         url('fonts/amaranth-webfont.woff') format('woff'),
+         url('fonts/amaranth-webfont.ttf') format('truetype'),
+         url('fonts/amaranth-webfont.svg#navamaranthregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 html, body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    min-height: 932px;
+    height: 100%;
+    font-family: headfont,Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    min-width: 800px;
     background: #FFFFFF;
+}
+
+html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+body {
+    overflow: hidden;
+}
+
+#page {
+    position: relative;
+    height: 100%;
+    min-height: 932px;
+}
+
+#nav {
+    height: 150px;
+    width: 700px;
+    margin: 20px 0;
+    z-index: 500;
+    position: absolute;
+}
+
+#nav #navage {
+    height: 100px;
+    width: 200px;
+    margin: 0px auto;
+}
+
+#nav #navage .navagelink {
+    display: block;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+#nav #navage .navagelink:hover {
+    background-position: 0 0;
+}
+
+#navgrownupslink {
+    background: url('../common/img/grownupslink.png') bottom;
+}
+
+#navkidslink {
+    background: url('../common/img/kidslink.png') bottom;
+}
+
+#nav #navbar {
+    background: #000000;
+    width: 100%;
+    height: 50px;
+}
+
+#nav #navbar div {
+    display: block;
+    float: left;
+	height: 50px;
+	overflow: hidden;
+}
+
+#nav #navbar div:hover {
+    background: #ed6e79;
+	overflow: visible;
+	height: auto;
+}
+
+#nav #navbar div a{
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: headfont,Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    padding: 17px 10px;
+}
+
+#nav #navbar div a:hover{
+    text-decoration: underline;
+}
+
+#bgoval {
+    top: 200px;
+}
+
+#content {
+    position: absolute;
+    width: 500px;
+    height: 370px;
+    position: absolute;
+    top: 200px;
+    padding: 100px;
+    text-align: center;
+    z-index: 50;
+    margin: 0 0 500px 0;
+}
+
+#content h1{
+    color: #FFFFFF;
+}
+
+#footer {
+    width: 100%;
+    background: #000000;
+    position: absolute;
+    bottom: 0;
+    height: 122px;
+    text-align: center;
+    z-index: 300;
+}
+
+#footer p {
+    font-size: 16px;
+    color: white;
+    padding: 0.5em 2em;
+}
+
+#footer a {
+    color: white;
+}
+
+#footerlogo {
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    z-index: 400;
+}
+
+#bubblebox {
+    width: 1320px;
+    height: 900px;
+    position: absolute;
+    outline: 1px solid #ddd;
+    z-index: 250;
+    overflow: hidden;
 }
