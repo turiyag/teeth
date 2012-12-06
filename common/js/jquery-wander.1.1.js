@@ -28,7 +28,7 @@
                 elem:obj,
                 pos:$(obj).position(),
                 radius:200,
-                tick:2000
+                tick:20000
             };
             $.extend(options, opt);
             $(obj).css({top:options.y+"px",left:options.x+"px"});

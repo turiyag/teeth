@@ -188,7 +188,7 @@
         $("#" + opt.id).css({position:"absolute",top:opt.y + "px",left:opt.x + "px"});
         $("#" + opt.id).wander({
             radius:opt.wanderradius,
-            tick:200
+            tick:5000
         });
         opt.callback("#" + opt.id);
         return this;
