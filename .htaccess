@@ -1,3 +1,8 @@
 # Rewrite URLs to have .html extensions
 RewriteEngine on
-rewriterule ^([^.]+[^/])$ $1.php
+RewriteBase /dev/teeth/
+rewriterule ^([^.]+)/([0-9]+)$ page.php?page=$1&id=$2 [L]
+rewriterule ^([^.]+[^/])$ $1/ [R,L]
+rewriterule ^([^.]+)/$ page.php?page=$1 [L]
+rewriterule common/(.*)$ common/$1 [L]
+

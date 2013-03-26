@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<document>
+	<bubbles>
+		<bubble link="/dev/teeth/grownups/facts/" text="facts" pic="" />
+		<bubble link="/dev/teeth/grownups/facts/stats/" text="stats" pic="common/img/icons/stats.png" />
+		<bubble link="/dev/teeth/grownups/facts/toxicstress/" text="toxic stress" pic="" />
+		<bubble link="/dev/teeth/grownups/care/adult/" text="adult care" pic="common/img/icons/adult.png" />
+	</bubbles>
+	<content>
+		<page id="1">
+			<bubbles>
+			</bubbles>
+			<head>Plaque</head>
+			<body>
+Plaque is a layer of combined saliva, bacteria, and food. It is called a biofilm, because it creates a film of living bacteria on teeth. The bacteria collect and bind themselves to teeth within 48 hours. Before that time it is soft, and can easily be brushed off. After 10 days, the plaque as fully hardened, and is very difficult to remove. When people have yellow teeth, you are seeing the layer of food and bacteria caked onto their teeth.			</body>
+		</page>
+	</content>
+</document>

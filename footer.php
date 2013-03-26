@@ -7,5 +7,5 @@
                 10601 Southport Rd. S.W. Suite 314, Calgary, AB, Canada T2W3M6<br />
             </p>
         </div>
-        <img id="footerlogo" src="../common/img/footerlogo.png" />
+        <img id="footerlogo" src="common/img/footerlogo.png" />
         

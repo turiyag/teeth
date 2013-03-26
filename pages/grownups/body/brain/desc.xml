@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" ?>
+<document>
+	<bubbles>
+		<bubble link="/dev/teeth/grownups/body/brain/" text="the brain" pic="common/img/icons/brain.png" />
+		<bubble link="/dev/teeth/grownups/body/gut/" text="the gut" pic="common/img/icons/gut.png" />
+		<bubble link="/dev/teeth/grownups/body/mouth/" text="the mouth" pic="common/img/icons/mouth.png" />
+		<bubble link="/dev/teeth/grownups/body/tummy/" text="the stomach" pic="common/img/icons/tummy.png" />
+	</bubbles>
+	<content>
+		<page id="1">
+			<bubbles>
+			</bubbles>
+			<head>The Brain</head>
+			<body>
+As a child grows, the most important developments occur in the brain.
+Brain development is affected in two primary ways by poor oral health
+Chronic pain and toxic stress from oral pain can limit the brain’s growth. 
+Infections in the mouth can travel to the brain through directly linking blood vessels.
+
+
+			</body>
+		</page>
+		<page id="2">
+			<bubbles>
+			</bubbles>
+			<head>The Brain</head>
+			<body>
+Chronic pain caused by tooth decay causes constant, unrelievable <a href="http://home.edgemontgeek.com/dev/teeth/grownups/facts/toxicstress/">toxic stress</a>. Tooth decay can start before children can speak and tell their family about their pain. If a child has always suffered from tooth pain, they assume that the pain is normal. Constant pain affects brain growth and has been linked to increase in addiction and poor emotional control. 			</body>
+		</page>
+		<page id="3">
+			<bubbles>
+			</bubbles>
+			<head>The Brain</head>
+			<body>
+When the mouth gets infected with <a href="http://home.edgemontgeek.com/dev/teeth/grownups/facts/bacteria/">bacteria</a>, abscesses or puss filled lumps develop during severe tooth decay in the mouth and can spread through the blood stream. The brain is the closest major organ to the mouth, and receives a lot of blood flow. The puss from a tooth abscess can enter the brain and can lead to severe health problems and even death.			</body>
+		</page>
+	</content>
+</document>

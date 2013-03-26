@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<document>
+	<bubbles>
+		<bubble link="/dev/teeth/grownups/care/prenatal" text="prenatal care" pic="common/img/icons/prenatal.png" />
+		<bubble link="/dev/teeth/grownups/body/" text="the body" pic="common/img/icons/adult.png" />
+		<bubble link="/dev/teeth/grownups/facts/stats" text="stats" pic="common/img/icons/stats.png" />
+		<bubble link="/dev/teeth/grownups/facts/plaque" text="plaque" pic="common/img/icons/demineralization.png" />
+		<bubble link="/dev/teeth/grownups/care/adult" text="adult care" pic="common/img/icons/adult.png" />
+	</bubbles>
+	<content>
+		<page id="1">
+			<bubbles>
+			</bubbles>
+			<head>Child Dental Care</head>
+			<body>
+It is no surprise that childhood experiences shape the rest of our lives.
+
+Despite growing medical knowledge about dental health, more and more children are suffering from dental decay.
+
+Dental decay is fully preventable!  But children need the support of their parents to remain healthy.
+
+			</body>
+		</page>
+	</content>
+</document>

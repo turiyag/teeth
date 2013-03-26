@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<document>
+	<bubbles>
+		<bubble link="/dev/teeth/grownups/care/prenatal" text="prenatal" pic="common/img/icons/prenatal.png" />
+		<bubble link="/dev/teeth/grownups/care/0to5" text="0 to 5 years" pic="common/img/icons/0-5.png" />
+		<bubble link="/dev/teeth/grownups/care/6to13" text="6 to 13 years" pic="common/img/icons/6-13.png" />
+		<bubble link="/dev/teeth/grownups/care/special" text="special needs" pic="common/img/icons/specialneeds.png" />
+	</bubbles>
+	<content>
+		<page id="1">
+			<bubbles>
+			</bubbles>
+			<head>Adults</head>
+			<body>
+In order to keep healthy teeth and gums through the rest of your life you need to stop problems before they happen. Brush and floss every day, after every meal if possible and reduce constant snacking and beverages between brushings.
+
+You can easily and inexpensively keep yourself healthy. Prevent stress and visits to the dentist before they happen.
+			</body>
+		</page>
+	</content>
+</document>
