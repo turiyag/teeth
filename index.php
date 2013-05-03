@@ -7,23 +7,34 @@
     <link rel="stylesheet" type="text/css" href="splashstyle.css" />
 	<script type="text/javascript" src="common/js/jquery-1.8.3.min.js"></script>
 	<script type="text/javascript" src="common/js/jquery-center.1.1.js"></script>
+	<script type="text/javascript" src="common/js/jquery-me.2.0.js"></script>
+	<script type="text/javascript" src="common/js/modernizr.touch.js"></script>
     <script type="text/javascript">
         var iAnimationTime = 300;
         $(function() {
+        
             $("#splashcontent").center();
             $("#splashpopups").center();
-            $(window).resize(function() {
+            if(!(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent))) {
                 $("#splashcontent").center();
                 $("#splashpopups").center();
-            });
-            $("#kidspic").hover(function() {
+                $(window).resize(function() {
+                    $("#splashcontent").center();
+                    $("#splashpopups").center();
+                });
+            }
+            $("#kidspic").hoverOrClick(function(event) {
+                event.preventDefault();
                 $("#kidspopup").animate({top:"5px"},iAnimationTime);
-            }, function() {
+            }, function(event) {
+                event.preventDefault();
                 $("#kidspopup").animate({top:"100px"},iAnimationTime);
             });
-            $("#grownupspic").hover(function() {
+            $("#grownupspic").hoverOrClick(function(event) {
+                event.preventDefault();
                 $("#grownupspopup").animate({top:"135px"},iAnimationTime);
-            }, function() {
+            }, function(event) {
+                event.preventDefault();
                 $("#grownupspopup").animate({top:"70px"},iAnimationTime);
             });
         });
@@ -37,7 +48,7 @@
         <p id="grownupspopup">grown-ups</p>
     </div>
     <div id="splashcontent">
-        <a href="kids"><img id="kidspic" src="img/kids.png" alt="kids" /></a><a href="grownups"><img id="grownupspic" src="img/grownups.png" alt="grownups" /></a>
+        <a href="kids/"><img id="kidspic" src="img/kids.png" alt="kids" /></a><a href="grownups/"><img id="grownupspic" src="img/grownups.png" alt="grownups" /></a>
     </div>
     <img id="splashfooter" src="img/logo.png" alt="logo" />
 </body>

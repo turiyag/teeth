@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<document>
+	<bubbles>
+		<bubble link="grownups/care/prenatal" text="prenatal" pic="common/img/icons/prenatal.png" />
+		<bubble link="grownups/care/0to5" text="0 to 5 years" pic="common/img/icons/0-5.png" />
+		<bubble link="grownups/care/6to13" text="6 to 13 years" pic="common/img/icons/6-13.png" />
+		<bubble link="grownups/care/adult" text="adult care" pic="common/img/icons/adult.png" />
+		<bubble link="grownups/care/special" text="plaque" pic="common/img/icons/demineralization.png" />
+	</bubbles>
+	<content>
+		<page id="1">
+			<bubbles>
+				<bubble link="grownups/body/brain" text="brain" pic="common/img/icons/brain.png" />
+			</bubbles>
+			<head>Prenatal Care</head>
+			<body>
+"My baby teeth won't all be in place until i'm about 3 years old"
+"My permanent teeth begin developing at or after birth."
+By the time the baby teeth are all visible, the permanent teeth are developing.
+Permanent teeth lay hidden under the gums, occupying most of the upper and lower jaw area. Once the crown of a tooth is in the mouth, it does not grow larger.
+			</body>
+		</page>
+		<page id="2">
+			<bubbles>
+			</bubbles>
+			<head>Did you know?</head>
+			<body>
+“My teeth start to form 7 weeks after you become pregnant.”
+Baby teeth are almost fully developed beneath the gums at birth. 	
+			</body>
+		</page>
+		<page id="3">
+			<bubbles>
+			</bubbles>
+			<head>Did you know?</head>
+			<body>
+–	Incisors (front teeth) begin to develop at 7 weeks into pregnancy and calcify (harden with enamel) at about 15 weeks.
+–	The First Molars begin to develop at 8 weeks and calcify at about 16 weeks.
+–	The Cuspids (eye teeth) begin to develop at 7 ½ weeks and calcify at about 17 weeks.
+–	The Second Molars begin to develop at 10 weeks and calcify at about 19 weeks.
+			</body>
+		</page>
+	</content>
+</document>
