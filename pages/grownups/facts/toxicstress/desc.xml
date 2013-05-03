@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <document>
 	<bubbles>
-		<bubble link="/dev/teeth/grownups/facts/" text="facts" pic="" />
+		<bubble link="/dev/teeth/grownups/facts/bacteria/" text="bacteria" pic="" />
 		<bubble link="/dev/teeth/grownups/facts/stats/" text="stats" pic="common/img/icons/stats.png" />
 		<bubble link="/dev/teeth/grownups/facts/plaque/" text="plaque" pic="common/img/icons/demineralization.png" />
 		<bubble link="/dev/teeth/grownups/care/adult/" text="adult care" pic="common/img/icons/adult.png" />
@@ -20,7 +20,9 @@ Toxic stress is stress caused in childhood that cannot be alleviated by parental
 			</bubbles>
 			<head>Toxic Stress</head>
 			<body>
- Children who suffer from dental decay suffer constant pain. They will avoid eating many foods, and will have their sleep interrupted by the pain. Without proper nutrition and rest, children’s development is severely impacted. Chronic pain also causes changes in the brain’s development. Children who experience constant pain or discomfort have a brain that learns to never feel comfortable, and is only ever under stress.			</body>
+ Children who suffer from dental decay suffer constant pain. They will avoid eating many foods, and will have their sleep interrupted by the pain. Without proper nutrition and rest, children’s development is severely impacted. Chronic pain also causes changes in the brain’s development. Children who experience constant pain or discomfort have a brain that learns to never feel comfortable,
+ and is only ever under stress.
+			</body>
 		</page>
 	</content>
 </document>

@@ -204,6 +204,7 @@ pre {
 	background: #ed6e79;
 	overflow: visible;
 	height: auto;
+	width: 20%;
 }
 
 #nav #navbar div a{
@@ -237,13 +238,13 @@ pre {
 #content #linkback {
 	position: absolute;
 	left: 125px;
-	top: 135px;
+	top: 110px;
 }
 
 #content #linkfwd {
 	position: absolute;
 	left: 525px;
-	top: 135px;
+	top: 110px;
 }
 
 #content #title {
@@ -252,11 +253,13 @@ pre {
 
 #content pre {
 	text-align: center;
+	margin: 0.5em 0px;
 }
 
 #content h1{
 	color: #FFFFFF;
 	text-align: center;
+	margin: 0px;
 }
 
 #content img {

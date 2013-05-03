@@ -2,7 +2,7 @@ var G_vmlCanvasManager;
 var PALETTE = ['#f99f1c','#52a6ec','#8fc747','#ee6d7a','#6d81c0','#7a6eea'];
 var availableColors = PALETTE.slice(0);
 var patharray = window.location.pathname.split('/');
-var age = patharray[patharray.length - 2];
+var age = (window.location.pathname.indexOf("grownups") !== -1) ? "grownups" : "kids";
 $(function() {
 	$("#nav" + age + "link").css({"background-position":"0 0"});
 });

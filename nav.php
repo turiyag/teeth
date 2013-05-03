@@ -1,10 +1,17 @@
-
+<?php
+	if (strpos($_SERVER['REQUEST_URI'], '/grownups') !== FALSE) {
+		$age = "grownups";
+	} else {
+		$age = "kids";
+	}
+?>
         <div id="nav">
             <div id="navage">
                 <a class="navagelink" id="navgrownupslink" href="/dev/teeth/grownups/"></a>
                 <a class="navagelink" id="navkidslink" href="/dev/teeth/kids/"></a>
             </div>
             <div id="navbar">
+<?php if ($age == "grownups") { ?>
                 <div>
                     <a href="/dev/teeth/grownups/downloads/">DOWNLOADS</a>
                 </div>
@@ -31,5 +38,26 @@
                 <div>
                     <a href="/dev/teeth/grownups/about/">ABOUT</a>
                 </div>
+<?php } else { ?>
+                <div></div>
+                <div>
+                    <a href="/dev/teeth/kids/care/">DENTAL CARE</a>
+                    <a href="/dev/teeth/kids/care/toothaches/">toothaches</a>
+                </div>
+                <div>
+                    <a href="/dev/teeth/kids/facts/">FACTS</a>
+                    <a href="/dev/teeth/kids/facts/bacteria/">bacteria</a>
+                    <a href="/dev/teeth/kids/facts/plaque/">plaque</a>
+                </div>
+                <div>
+                    <a href="/dev/teeth/kids/body/">THE BODY</a>
+                    <a href="/dev/teeth/kids/body/brain/">the brain</a>
+                    <a href="/dev/teeth/kids/body/gut/">the gut</a>
+                    <a href="/dev/teeth/kids/body/mouth/">the mouth</a>
+                    <a href="/dev/teeth/kids/body/tummy/">the tummy</a>
+                </div>
+                <div></div>
+
+<?php } ?>
             </div>
         </div>

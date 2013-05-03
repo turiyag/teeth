@@ -42,7 +42,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name = "viewport" content = "width = 800">
+	<meta name="viewport" content="width = 800">
 	<title>Dr. Good Tooth</title>
 	<link rel="stylesheet" type="text/css" href="common/style.css" />
 	<link rel="stylesheet" type="text/css" href="common/sitewide.css" />

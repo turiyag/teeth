@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <document>
 	<bubbles>
-		<bubble link="/dev/teeth/grownups/facts/" text="facts" pic="" />
+		<bubble link="/dev/teeth/grownups/facts/bacteria/" text="bacteria" pic="" />
 		<bubble link="/dev/teeth/grownups/facts/toxicstress/" text="toxic stress" pic="" />
 		<bubble link="/dev/teeth/grownups/facts/plaque/" text="plaque" pic="common/img/icons/demineralization.png" />
 		<bubble link="/dev/teeth/grownups/care/adult/" text="adult care" pic="common/img/icons/adult.png" />
@@ -13,14 +13,6 @@
 			<head>Statistics</head>
 			<body>
 Chronic dental infection is the most common progressive chronic problem in children under age 6. It is 5 times more common than asthma! In Alberta, 28% of 2-5 year olds suffer from cavities. An estimated 23% of children do not receive any treatment and are left to suffer. That’s 1.2 million children in USA and Canada who are left in constant pain.
-			</body>
-		</page>
-		<page id="2">
-			<bubbles>
-			</bubbles>
-			<head>Statistics</head>
-			<body>
-Dental surgery accounts for the majority of children’s hospital surgeries. In Alberta 13 thousand children have dental surgery per year! The cost for operation rooms in hospitals runs to $6.25 million per year for dental surgeries, and this number does not include dental care or other professional fees!  That’s over $6.25 million of fully preventable surgery!
 			</body>
 		</page>
 	</content>

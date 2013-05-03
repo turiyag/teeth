@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<document>
+	<bubbles>
+		<bubble link="/dev/teeth/kids/care/toothaches" text="toothaches" pic="" />
+		<bubble link="/dev/teeth/kids/body/" text="the body" pic="common/img/icons/adult.png" />
+		<bubble link="/dev/teeth/kids/facts/bacteria" text="bacteria" pic="" />
+		<bubble link="/dev/teeth/kids/facts/plaque" text="plaque" pic="common/img/icons/demineralization.png" />
+	</bubbles>
+	<content>
+		<page id="1">
+			<bubbles>
+			</bubbles>
+			<head>Cleaning Teeth</head>
+			<body>
+It's easy to brush and floss your teeth.
+
+While brushing your teeth, listen to a song. When the song is over, you should have brushed all of your teeth well.
+
+Listen to another song, and by the time that one is finished, you should be done flossing! 
+			</body>
+		</page>
+		<page id="2">
+			<bubbles>
+			</bubbles>
+			<head>How To Brush</head>
+			<body>
+Put a pea sized drop of toothpaste on your toothbrush.
+Brush each tooth from the gums towards the edge of the tooth where you bite.
+Brush the tops of your mollars.
+Brush the back side of each tooth from the gums to the edge.
+Spit out the toothpaste and rinse your mouth.
+			</body>
+		</page>
+		<page id="3">
+			<bubbles>
+			</bubbles>
+			<head>How To Floss</head>
+			<body>
+Measure dental floss to be about as long as your forearm.
+Wind the floss around your middle fingers.
+Gently rock the floss between your teeth.
+Run the floss up and down both teeth in the gap.
+Gently rock the floss out.
+Repeat the rocking with a clean part of your floss for every gap between your teeth.
+			</body>
+		</page>
+	</content>
+</document>

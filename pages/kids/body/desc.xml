@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<document>
+	<bubbles>
+		<bubble link="/dev/teeth/kids/body/brain/" text="the brain" pic="common/img/icons/brain.png" />
+		<bubble link="/dev/teeth/kids/body/gut/" text="the gut" pic="common/img/icons/gut.png" />
+		<bubble link="/dev/teeth/kids/body/mouth/" text="the mouth" pic="common/img/icons/mouth.png" />
+		<bubble link="/dev/teeth/kids/body/tummy/" text="the stomach" pic="common/img/icons/tummy.png" />
+	</bubbles>
+	<content>
+		<page id="1">
+			<bubbles>
+			</bubbles>
+			<head>The Body</head>
+			<body>
+The mouth is the gateway to the body. The mouth is used to eat, breath, and speak. Everything that we put into our body passes through the mouth.
+
+The body is a single complex machine. Every part is connected to and affects every other part. When you have problems in your mouth, it can cause other problems in your body.
+
+			</body>
+		</page>
+	</content>
+</document>
