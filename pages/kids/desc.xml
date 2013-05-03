@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<document>
+	<bubbles>
+		<bubble link="/dev/teeth/kids/care/" text="brushing and flossing" pic="" />
+		<bubble link="/dev/teeth/kids/body/" text="the body" pic="common/img/icons/adult.png" />
+		<bubble link="/dev/teeth/kids/facts/bacteria" text="bacteria" pic="" />
+		<bubble link="/dev/teeth/kids/facts/plaque" text="plaque" pic="common/img/icons/demineralization.png" />
+	</bubbles>
+	<content>
+		<page id="1">
+			<bubbles>
+			</bubbles>
+			<head>Dental Care</head>
+			<body>
+If you don't keep your teeth clean, then you can suffer from dental decay.
+Dental decay is an infectious disease!
+<a href="http://home.edgemontgeek.com/dev/teeth/kids/care/toothaches/">Cavities</a> are caused by acid made by <a href="http://home.edgemontgeek.com/dev/teeth/kids/facts/bacteria/">bacteria</a> that dissolves your teeth.
+If you get a cavity, it can spread to other teeth and the rest of your <a href="http://home.edgemontgeek.com/dev/teeth/kids/body/">body</a>.
+
+It's easy to keep your teeth healthy!
+<a href="http://home.edgemontgeek.com/dev/teeth/kids/care/">Brush and floss</a> all 5 surfaces of each tooth to keep them clean.
+			</body>
+		</page>
+	</content>
+</document>

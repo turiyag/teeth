@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<document>
+	<bubbles>
+		<bubble link="/dev/teeth/grownups/care/prenatal" text="prenatal" pic="common/img/icons/prenatal.png" />
+		<bubble link="/dev/teeth/grownups/care/0to5" text="0 to 5 years" pic="common/img/icons/0-5.png" />
+		<bubble link="/dev/teeth/grownups/care/6to13" text="6 to 13 years" pic="common/img/icons/6-13.png" />
+		<bubble link="/dev/teeth/grownups/care/adult" text="adult care" pic="common/img/icons/adult.png" />
+		<bubble link="/dev/teeth/grownups/care/special" text="plaque" pic="common/img/icons/demineralization.png" />
+	</bubbles>
+	<content>
+		<page id="1">
+			<bubbles>
+				<bubble link="/dev/teeth/grownups/care/special" text="special needs" pic="common/img/icons/specialneeds.png" />
+			</bubbles>
+			<head>Prenatal Care</head>
+			<body>
+Dental disease in pregnant mothers is closely correlated with dental disease in their infants. Bacteria and infection can easily spread from a mother to her child in the months after birth. All primary caregivers should have full medical checkups including dental checkups to identify and treat disease before birth. To avoid passing bacteria to infants, caregivers should clean their mouths using 
+xylitol based topical wipes.
+			</body>
+		</page>
+	</content>
+</document>

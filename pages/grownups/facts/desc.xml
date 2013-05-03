@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<document>
+	<bubbles>
+		<bubble link="/dev/teeth/grownups/facts/stats/" text="stats" pic="common/img/icons/stats.png" />
+		<bubble link="/dev/teeth/grownups/facts/toxicstress/" text="toxic stress" pic="" />
+		<bubble link="/dev/teeth/grownups/facts/plaque/" text="plaque" pic="common/img/icons/demineralization.png" />
+		<bubble link="/dev/teeth/grownups/care/adult/" text="adult care" pic="common/img/icons/adult.png" />
+	</bubbles>
+	<content>
+		<page id="1">
+			<bubbles>
+			</bubbles>
+			<head>Facts</head>
+			<body>
+Cavities are the result of a disease called Dental Caries, which is a progressive disease that eats through your teeth, causing pain and infection that can spread through the mouth and body. If you have Caries on one tooth, it can spread to other teeth nearby. Caries is caused by <a href="http://home.edgemontgeek.com/dev/teeth/grownups/facts/bacteria/">bacteria</a> excreting the food that they find and eat in your mouth.
+
+Dental disease at any stage of life can cause lasting problems.
+			</body>
+		</page>
+	</content>
+</document>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<document>
+	<bubbles>
+		<bubble link="/dev/teeth/grownups/care/prenatal" text="prenatal care" pic="common/img/icons/prenatal.png" />
+		<bubble link="/dev/teeth/grownups/body/" text="the body" pic="common/img/icons/adult.png" />
+		<bubble link="/dev/teeth/grownups/facts/stats" text="stats" pic="common/img/icons/stats.png" />
+		<bubble link="/dev/teeth/grownups/facts/plaque" text="plaque" pic="common/img/icons/demineralization.png" />
+		<bubble link="/dev/teeth/grownups/care/adult" text="adult care" pic="common/img/icons/adult.png" />
+	</bubbles>
+	<content>
+		<page id="1">
+			<bubbles>
+			</bubbles>
+			<head>About</head>
+			<body>
+Dr. Goodtooth specializes in
+infant and child dental care including care
+for patients with special needs.
+
+He has been a dentist for 42 years, and has treated over 400,000 patients including 8,000 children under general anesthetic.
+He is the author of several books and also gives presentations on dental health.
+			</body>
+		</page>
+	</content>
+</document>

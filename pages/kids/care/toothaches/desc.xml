@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<document>
+	<bubbles>
+		<bubble link="/dev/teeth/kids/care/" text="brushing and flossing" pic="" />
+		<bubble link="/dev/teeth/kids/body/" text="the body" pic="common/img/icons/adult.png" />
+		<bubble link="/dev/teeth/kids/facts/bacteria" text="bacteria" pic="" />
+		<bubble link="/dev/teeth/kids/facts/plaque" text="plaque" pic="common/img/icons/demineralization.png" />
+	</bubbles>
+	<content>
+		<page id="1">
+			<bubbles>
+			</bubbles>
+			<head>Toothaches</head>
+			<body>
+Toothaches are caused by cavities. Cavities are areas of your teeth that have rotted away because of the <a href="http://home.edgemontgeek.com/dev/teeth/kids/facts/bacteria/">bacteria</a> that live in our mouths.
+
+When cavities are bad, they make a hole to the middle of the tooth, which is soft and has blood vessels and nerves that connect with the rest of your body.
+It is very painful to have cavities!
+You may have troubles eating, speaking,
+and even breathing.
+			</body>
+		</page>
+	</content>
+</document>

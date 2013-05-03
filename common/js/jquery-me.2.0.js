@@ -195,11 +195,21 @@
 			radius:opt.wanderradius,
 			tick:5000
 		});
+<<<<<<< HEAD
 		$("#" + opt.id).append('<img src="' + opt.pic + '" />');
 		$("#" + opt.id + " img").load(function() {
 			$("#" + opt.id + " img").center({vertical:false});
 			$("#" + opt.id + " img").css({top:"20px"});
 		});
+=======
+		if(opt.pic) {
+			$("#" + opt.id).append('<img src="' + opt.pic + '" />');
+			$("#" + opt.id + " img").load(function() {
+				$("#" + opt.id + " img").center({vertical:false});
+				$("#" + opt.id + " img").css({top:"20px"});
+			});
+		}
+>>>>>>> 8ce365979447874d1d8cdf11bd13245e66611b0a
 		$("#" + opt.id).append('<p><a href="' + opt.link + '">' + opt.text + '</a></p>');
 		$("#" + opt.id + " p").center({horizontal:false});
 		opt.callback(opt);

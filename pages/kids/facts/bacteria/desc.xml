@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<document>
+	<bubbles>
+		<bubble link="/dev/teeth/kids/facts/" text="facts" pic="" />
+		<bubble link="/dev/teeth/kids/care/" text="brushing and flossing" pic="" />
+		<bubble link="/dev/teeth/kids/care/toothaches" text="toothaches" pic="" />
+		<bubble link="/dev/teeth/kids/facts/plaque" text="plaque" pic="common/img/icons/demineralization.png" />
+	</bubbles>
+	<content>
+		<page id="1">
+			<bubbles>
+			</bubbles>
+			<head>Bacteria</head>
+			<body>
+Bacteria are tiny creatures that live everywhere. They are sometimes called germs. Not all bacteria are harmful, but many are.
+
+More than 500 different types of bacteria live in your mouth. Just like you, they need to eat, and so they hunt down bits of food trapped on and between your teeth.
+			</body>
+		</page>
+		<page id="2">
+			<bubbles>
+			</bubbles>
+			<head>Bacteria</head>
+			<body>
+The bacteria that live in your mouth eat the food that you eat, and they leave behind acids that dissolve your teeth. When your teeth dissolve enough, you get <a href="http://home.edgemontgeek.com/dev/teeth/kids/care/toothaches/">cavities</a>.
+
+When you brush your teeth you clean away food so bacteria can't eat it, and you also clean away any acids that they
+left in your mouth.
+			</body>
+		</page>
+	</content>
+</document>

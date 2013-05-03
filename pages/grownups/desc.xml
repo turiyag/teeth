@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<document>
+	<bubbles>
+		<bubble link="/dev/teeth/grownups/care/prenatal" text="prenatal care" pic="common/img/icons/prenatal.png" />
+		<bubble link="/dev/teeth/grownups/body/" text="the body" pic="common/img/icons/adult.png" />
+		<bubble link="/dev/teeth/grownups/facts/stats" text="stats" pic="common/img/icons/stats.png" />
+		<bubble link="/dev/teeth/grownups/facts/plaque" text="plaque" pic="common/img/icons/demineralization.png" />
+		<bubble link="/dev/teeth/grownups/care/adult" text="adult care" pic="common/img/icons/adult.png" />
+	</bubbles>
+	<content>
+		<page id="1">
+			<bubbles>
+			</bubbles>
+			<head>Child Dental Care</head>
+			<body>
+It is no surprise that childhood experiences shape the rest of our lives.
+Suffering in childhood affects adult life.
+
+Dental decay is fully preventable! And yet, just under 1 in 3 children suffer from tooth decay.
+
+Why let any child suffer? With your support, your children can remain healthy and happy.
+
+
+			</body>
+		</page>
+	</content>
+</document>

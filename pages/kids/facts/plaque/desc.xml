@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<document>
+	<bubbles>
+		<bubble link="/dev/teeth/kids/facts/" text="facts" pic="" />
+		<bubble link="/dev/teeth/kids/care/" text="brushing and flossing" pic="" />
+		<bubble link="/dev/teeth/kids/facts/bacteria" text="bacteria" pic="" />
+		<bubble link="/dev/teeth/kids/care/toothaches" text="toothaches" pic="" />
+	</bubbles>
+	<content>
+		<page id="1">
+			<bubbles>
+			</bubbles>
+			<head>Plaque</head>
+			<body>
+Plaque is a film that forms on teeth that aren’t kept clean. The plaque is made of bits of food and <a href="http://home.edgemontgeek.com/dev/teeth/kids/facts/bacteria/">bacteria</a>. Plaque is soft and easy to brush off, but if you leave it, then the tooth underneath the film will disolve.
+
+Plaque also causes your teeth to change colours. Plaque can make your teeth
+yellow, orange, or brown. 
+			</body>
+		</page>
+	</content>
+</document>

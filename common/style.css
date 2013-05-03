@@ -142,7 +142,11 @@ a {
 
 pre {
 	font-family: parafont,Arial,Helvetica,sans-serif;
+<<<<<<< HEAD
 	font-size: 20px;
+=======
+	font-size: 25px;
+>>>>>>> 8ce365979447874d1d8cdf11bd13245e66611b0a
 	white-space: pre-wrap;
 }
 
@@ -196,12 +200,15 @@ pre {
 	float: left;
 	height: 50px;
 	overflow: hidden;
+	width: 20%;
+	text-align: center;
 }
 
 #nav #navbar div.navhover {
 	background: #ed6e79;
 	overflow: visible;
 	height: auto;
+	width: 20%;
 }
 
 #nav #navbar div a{
@@ -235,13 +242,21 @@ pre {
 #content #linkback {
 	position: absolute;
 	left: 125px;
+<<<<<<< HEAD
 	top: 135px;
+=======
+	top: 110px;
+>>>>>>> 8ce365979447874d1d8cdf11bd13245e66611b0a
 }
 
 #content #linkfwd {
 	position: absolute;
 	left: 525px;
+<<<<<<< HEAD
 	top: 135px;
+=======
+	top: 110px;
+>>>>>>> 8ce365979447874d1d8cdf11bd13245e66611b0a
 }
 
 #content #title {
@@ -250,11 +265,19 @@ pre {
 
 #content pre {
 	text-align: center;
+<<<<<<< HEAD
+=======
+	margin: 0.5em 0px;
+>>>>>>> 8ce365979447874d1d8cdf11bd13245e66611b0a
 }
 
 #content h1{
 	color: #FFFFFF;
 	text-align: center;
+<<<<<<< HEAD
+=======
+	margin: 0px;
+>>>>>>> 8ce365979447874d1d8cdf11bd13245e66611b0a
 }
 
 #content img {

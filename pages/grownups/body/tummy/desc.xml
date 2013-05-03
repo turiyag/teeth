@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<document>
+	<bubbles>
+		<bubble link="/dev/teeth/grownups/body/brain/" text="the brain" pic="common/img/icons/brain.png" />
+		<bubble link="/dev/teeth/grownups/body/gut/" text="the gut" pic="common/img/icons/gut.png" />
+		<bubble link="/dev/teeth/grownups/body/mouth/" text="the mouth" pic="common/img/icons/mouth.png" />
+		<bubble link="/dev/teeth/grownups/body/tummy/" text="the stomach" pic="common/img/icons/tummy.png" />
+	</bubbles>
+	<content>
+		<page id="1">
+			<bubbles>
+			</bubbles>
+			<head>The Stomach</head>
+			<body>
+Bacteria and infection in the mouth are swallowed with food and travel to the stomach. People who have a tooth abscess swallow up to a cup of puss every day!
+This is not only disgusting, but it’s unhealthy, as infection may spread down the esophagus and into the stomach.
+ 			</body>
+		</page>
+	</content>
+</document>
