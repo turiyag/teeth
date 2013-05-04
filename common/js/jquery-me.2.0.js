@@ -252,7 +252,7 @@
 						setTimeout(function() {
 							callOut(event,jThis);
 							jThis.data({"secondTouch":false});
-						},2000);
+						},7000);
 						jThis.data("secondTouch",true);
 					} else {
 						callFinal(event,jThis);

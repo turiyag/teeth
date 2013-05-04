@@ -1,0 +1,29 @@
+
+#bubblebox {
+	pointer-events:none;
+	width: 1320px;
+	height: 900px;
+	position: absolute;
+	z-index: 250;
+	overflow: hidden;
+}
+
+#bubblebox div {
+	pointer-events:all;
+}
+
+div.bubble p {
+	text-align: center;
+	font-family: headfont;
+	font-size: 32px;
+	position: absolute;
+	color: white;
+	margin: 0px;
+	width: 100%;
+	left: 0px;
+}
+
+div.bubble img {
+	opacity: 0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}

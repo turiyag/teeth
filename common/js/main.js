@@ -34,7 +34,7 @@ function loadBubbles(bubbles) {
 }
 
 function resized() {
-	$("#content, #nav").center({vertical:false});
+	//$("#content").center({vertical:false});
 	$("#bubblebox").center({vertical:false,minX:-1000});
 	if ($(window).width() < 900) {
 		$("#footer").css({"text-align":"right"});

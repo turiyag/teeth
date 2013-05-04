@@ -1,0 +1,9 @@
+@import url(fonts.css);
+html,body{background:#ed6e79;color:#FFF;font-family:headfont;height:100%;margin:0;padding:0;width:100%;}
+a,img{border:0;float:left;margin:0;padding:0;}
+p{margin:1em 0;padding:0;}
+#splashcontent{height:200px;width:354px;}
+#splashfooter{bottom:10px;left:30px;position:absolute;}
+#splashpopups{font-size:20px;height:200px;width:354px;}
+#grownupspopup{left:177px;position:absolute;text-align:center;top:85px;width:177px;}
+#kidspopup{left:0;position:absolute;text-align:center;top:115px;width:177px;}

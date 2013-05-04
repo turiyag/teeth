@@ -1,3 +1,8 @@
+@import url("fonts.css");
+@import url("nav.css");
+@import url("content.css");
+@import url("bubbles.css");
+@import url("footer.css");
 /*
 div {
 	outline: 1px solid red;
@@ -7,317 +12,24 @@ canvas {
 }
 */
 
-@font-face {
-	font-family: 'headfont';
-	src: url('fonts/amaranth-webfont.eot');
-	src: url('fonts/amaranth-webfont.eot?#naviefix') format('embedded-opentype'),
-		 url('fonts/amaranth-webfont.woff') format('woff'),
-		 url('fonts/amaranth-webfont.ttf') format('truetype'),
-		 url('fonts/amaranth-webfont.svg#navamaranthregular') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'parafontlgt';
-	src: url('fonts/Cabin-Regular-webfont.eot');
-	src: url('fonts/Cabin-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/Cabin-Regular-webfont.woff') format('woff'),
-		 url('fonts/Cabin-Regular-webfont.ttf') format('truetype'),
-		 url('fonts/Cabin-Regular-webfont.svg#CabinRegular') format('svg');
-	font-weight: normal;
-	font-style: normal;
-
-}
-
-@font-face {
-	font-family: 'parafontlgti';
-	src: url('fonts/Cabin-Italic-webfont.eot');
-	src: url('fonts/Cabin-Italic-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/Cabin-Italic-webfont.woff') format('woff'),
-		 url('fonts/Cabin-Italic-webfont.ttf') format('truetype'),
-		 url('fonts/Cabin-Italic-webfont.svg#CabinItalic') format('svg');
-	font-weight: normal;
-	font-style: normal;
-
-}
-
-@font-face {
-	font-family: 'parafont';
-	src: url('fonts/Cabin-Medium-webfont.eot');
-	src: url('fonts/Cabin-Medium-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/Cabin-Medium-webfont.woff') format('woff'),
-		 url('fonts/Cabin-Medium-webfont.ttf') format('truetype'),
-		 url('fonts/Cabin-Medium-webfont.svg#CabinMedium') format('svg');
-	font-weight: normal;
-	font-style: normal;
-
-}
-
-@font-face {
-	font-family: 'parafonti';
-	src: url('fonts/Cabin-MediumItalic-webfont.eot');
-	src: url('fonts/Cabin-MediumItalic-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/Cabin-MediumItalic-webfont.woff') format('woff'),
-		 url('fonts/Cabin-MediumItalic-webfont.ttf') format('truetype'),
-		 url('fonts/Cabin-MediumItalic-webfont.svg#CabinMediumItalic') format('svg');
-	font-weight: normal;
-	font-style: normal;
-
-}
-
-@font-face {
-	font-family: 'parafontsb';
-	src: url('fonts/Cabin-SemiBold-webfont.eot');
-	src: url('fonts/Cabin-SemiBold-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/Cabin-SemiBold-webfont.woff') format('woff'),
-		 url('fonts/Cabin-SemiBold-webfont.ttf') format('truetype'),
-		 url('fonts/Cabin-SemiBold-webfont.svg#CabinSemiBold') format('svg');
-	font-weight: normal;
-	font-style: normal;
-
-}
-
-@font-face {
-	font-family: 'parafontsbi';
-	src: url('fonts/Cabin-SemiBoldItalic-webfont.eot');
-	src: url('fonts/Cabin-SemiBoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/Cabin-SemiBoldItalic-webfont.woff') format('woff'),
-		 url('fonts/Cabin-SemiBoldItalic-webfont.ttf') format('truetype'),
-		 url('fonts/Cabin-SemiBoldItalic-webfont.svg#CabinSemiBoldItalic') format('svg');
-	font-weight: normal;
-	font-style: normal;
-
-}
-
-@font-face {
-	font-family: 'parafontb';
-	src: url('fonts/Cabin-Bold-webfont.eot');
-	src: url('fonts/Cabin-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/Cabin-Bold-webfont.woff') format('woff'),
-		 url('fonts/Cabin-Bold-webfont.ttf') format('truetype'),
-		 url('fonts/Cabin-Bold-webfont.svg#CabinBold') format('svg');
-	font-weight: normal;
-	font-style: normal;
-
-}
-
-@font-face {
-	font-family: 'parafontbi';
-	src: url('fonts/Cabin-BoldItalic-webfont.eot');
-	src: url('fonts/Cabin-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/Cabin-BoldItalic-webfont.woff') format('woff'),
-		 url('fonts/Cabin-BoldItalic-webfont.ttf') format('truetype'),
-		 url('fonts/Cabin-BoldItalic-webfont.svg#CabinBoldItalic') format('svg');
-	font-weight: normal;
-	font-style: normal;
-
-}
-
 html, body {
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
-	min-height: 932px;
-	height: 100%;
 	font-family: parafont,Arial,Helvetica,sans-serif;
-	font-size: 20px;
+	font-size: 18px;
 	min-width: 800px;
 	background: #FFFFFF;
-}
-
-html {
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
 
-body {
-	overflow: hidden;
-}
-
 a {
-	text-decoration: none;
 	color: white;
 }
 
 pre {
 	font-family: parafont,Arial,Helvetica,sans-serif;
-	font-size: 25px;
+	font-size: 1em;
 	white-space: pre-wrap;
-}
-
-#page {
-	position: relative;
-	height: 100%;
-	min-height: 932px;
-}
-
-#nav {
-	height: 150px;
-	width: 700px;
-	margin: 20px 0;
-	z-index: 500;
-	position: absolute;
-}
-
-#nav #navage {
-	height: 100px;
-	width: 200px;
-	margin: 0px auto;
-}
-
-#nav #navage .navagelink {
-	display: block;
-	height: 100px;
-	width: 100px;
-	float: left;
-}
-
-#nav #navage .navagelink:hover {
-	background-position: 0 0;
-}
-
-#navgrownupslink {
-	background: url('../common/img/grownupslink.png') bottom;
-}
-
-#navkidslink {
-	background: url('../common/img/kidslink.png') bottom;
-}
-
-#nav #navbar {
-	background: #000000;
-	width: 100%;
-	height: 50px;
-}
-
-#nav #navbar div {
-	display: block;
-	float: left;
-	height: 50px;
-	overflow: hidden;
-	width: 20%;
-	text-align: center;
-}
-
-#nav #navbar div.navhover {
-	background: #ed6e79;
-	overflow: visible;
-	height: auto;
-	width: 20%;
-}
-
-#nav #navbar div a{
-	display: block;
-	color: #FFFFFF;
-	text-decoration: none;
-	font-family: headfont,Arial,Helvetica,sans-serif;
-	font-size: 16px;
-	padding: 17px 10px;
-}
-
-#nav #navbar div a:hover{
-	text-decoration: underline;
-}
-
-#bgoval {
-	top: 200px;
-}
-
-#content {
-	position: absolute;
-	width: 500px;
-	height: 370px;
-	position: absolute;
-	top: 200px;
-	padding: 100px;
-	z-index: 50;
-	margin: 0 0 500px 0;
-}
-
-#content #linkback {
-	position: absolute;
-	left: 125px;
-	top: 110px;
-}
-
-#content #linkfwd {
-	position: absolute;
-	left: 525px;
-	top: 110px;
-}
-
-#content #title {
-	display: inline;
-}
-
-#content pre {
-	text-align: center;
-	margin: 0.5em 0px;
-}
-
-#content h1{
-	color: #FFFFFF;
-	text-align: center;
-	margin: 0px;
-}
-
-#content img {
-	display: inline-block;
-}
-
-#footer {
-	width: 100%;
-	background: #000000;
-	position: fixed;
-	bottom: 0;
-	height: 122px;
-	text-align: center;
-	z-index: 300;
-}
-
-#footer p {
-	font-size: 16px;
-	color: white;
-	padding: 0.5em 2em;
-}
-
-#footer a {
-	color: white;
-}
-
-#footerlogo {
-	position: fixed;
-	bottom: 4px;
-	left: 0;
-	z-index: 400;
-}
-
-#bubblebox {
-	pointer-events:none;
-	width: 1320px;
-	height: 900px;
-	position: absolute;
-	z-index: 250;
-	overflow: hidden;
-}
-
-#bubblebox div {
-	pointer-events:all;
-}
-
-div.bubble p {
-	text-align: center;
-	font-family: headfont;
-	font-size: 32px;
-	position: absolute;
-	color: white;
-	margin: 0px;
-	width: 100%;
-	left: 0px;
-}
-
-div.bubble img {
-	opacity: 0.4;
-	filter:alpha(opacity=40); /* For IE8 and earlier */
 }
