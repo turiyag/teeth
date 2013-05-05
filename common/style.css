@@ -3,14 +3,6 @@
 @import url("content.css");
 @import url("bubbles.css");
 @import url("footer.css");
-/*
-div {
-	outline: 1px solid red;
-}
-canvas {
-	outline: 1px solid green;
-}
-*/
 
 html, body {
 	margin: 0px;

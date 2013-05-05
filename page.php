@@ -44,7 +44,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Dr. Good Tooth</title>
 	<link rel="stylesheet" type="text/css" href="common/style.css" />
-	<script type="text/javascript" src="common/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="common/js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="common/js/jquery-center.1.2.js"></script>
 	<script type="text/javascript" src="common/js/jquery-wander.1.1.js"></script>
 	<script type="text/javascript" src="common/js/jquery-me.2.0.js"></script>
@@ -53,10 +53,6 @@
 	<script type="text/javascript" src="common/js/modernizr.touch.js"></script>
 	<script type="text/javascript">
 		$(function() {
-			var i, navLinks;
-			PALETTE.splice(2,1);
-			availableColors = PALETTE.slice(0);
-			$("#content").css("background-image","url('common/img/oval77d1f3.png')");
 			loadBubbles([
 				<?php
 					echo implode(",",$bubbles);
@@ -73,9 +69,9 @@
 		<h2><?php echo $head; ?></h2>
 		<?php if($moreup){ ?><a id="linkfwd" href="<?php echo ($id + 1);?>"><img src="common/img/icons/arrowright.png" /></a><?php } ?>
 		<pre><?php echo $body; ?></pre>
+		<div id="bubblebox">
+		</div>
 	</div>
 	<?php include('footer.php'); ?>
-	<div id="bubblebox">
-	</div>
 </body>
 </html>

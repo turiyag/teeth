@@ -170,7 +170,7 @@
 			x:0,
 			y:0,
 			radius:$.rbetween(70,120),
-			wanderradius: 100,
+			wanderradius: 70,
 			color:$.rcolor(),
 			text:"",
 			link:"",
@@ -178,8 +178,9 @@
 			callback: function(bubble) {return;}
 		};
 		$.extend(opt,options);
-		$(opt.parent).append('<div id="' + opt.id + '" class="bubble" width="' + (opt.radius * 2) + '" height="' + (opt.radius * 2) + '"></div>');
-		$("#" + opt.id).append('<canvas id="' + opt.cid + '" class="bubble" width="' + (opt.radius * 2) + '" height="' + (opt.radius * 2) + '"></canvas>');
+		$(opt.parent).append('<a href="' + opt.link + '" id="' + opt.id + '" class="bubble" width="' + (opt.radius * 2) + '" height="' + (opt.radius * 2) + '"></a>');
+		jLink = $("#" + opt.id);
+		jLink.append('<canvas id="' + opt.cid + '" class="bubble" width="' + (opt.radius * 2) + '" height="' + (opt.radius * 2) + '"></canvas>');
 		el = $("#" + opt.cid)[0];
 		if (G_vmlCanvasManager) {
 			G_vmlCanvasManager.initElement(el);
@@ -190,19 +191,18 @@
 		ctx.arc(opt.radius, opt.radius, opt.radius, 0, Math.PI*2, true); 
 		ctx.closePath();
 		ctx.fill();
-		$("#" + opt.id).css({position:"absolute",top:opt.y + "px",left:opt.x + "px"});
-		$("#" + opt.id).wander({
-			radius:opt.wanderradius,
-			tick:5000
+		jLink.css({position:"absolute",top:opt.y + "px",left:opt.x + "px"});
+		jLink.wander({
+			radius:opt.wanderradius
 		});
 		if(opt.pic) {
-			$("#" + opt.id).append('<img src="' + opt.pic + '" />');
+			jLink.append('<img src="' + opt.pic + '" />');
 			$("#" + opt.id + " img").load(function() {
 				$("#" + opt.id + " img").center({vertical:false});
 				$("#" + opt.id + " img").css({top:"20px"});
 			});
 		}
-		$("#" + opt.id).append('<p><a href="' + opt.link + '">' + opt.text + '</a></p>');
+		jLink.append('<p>' + opt.text + '</p>');
 		$("#" + opt.id + " p").center({horizontal:false});
 		opt.callback(opt);
 		return this;

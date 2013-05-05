@@ -1,29 +1,36 @@
 
 #bubblebox {
-	pointer-events:none;
-	width: 1320px;
-	height: 900px;
 	position: absolute;
-	z-index: 250;
+	top:-200px;
+	left:-250px;
+	pointer-events:none;
+	width: 1200px;
+	height: 900px;
 	overflow: hidden;
 }
 
-#bubblebox div {
+#bubblebox a {
+	display:block;
 	pointer-events:all;
+	margin: 0;
+	padding: 0;
+	width:200px;
 }
 
-div.bubble p {
+#bubblebox p {
 	text-align: center;
 	font-family: headfont;
-	font-size: 32px;
+	font-size: 1.3em;
 	position: absolute;
 	color: white;
-	margin: 0px;
+	margin: 0;
+	padding: 0;
 	width: 100%;
 	left: 0px;
 }
 
-div.bubble img {
+#bubblebox img {
+	border: none;
 	opacity: 0.4;
 	filter:alpha(opacity=40); /* For IE8 and earlier */
 }

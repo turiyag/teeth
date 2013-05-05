@@ -1,7 +1,7 @@
 ul.dd{position:relative;}
 ul.dd > li{float:left;position:relative;}
 ul.dd > li > ul{left:-9999px;position:absolute;width:200px;}
-ul.dd > li:hover > ul{left:0;}
+ul.dd > li:hover > ul{left:0;background:#ed6e79;}
 #nav{height:150px;margin:20px auto;position:relative;width:700px;z-index:50;}
 #nav #navage{height:100px;margin:0 auto;width:200px;}
 #nav #navage .navagelink{display:block;float:left;height:100px;width:100px;}
@@ -12,5 +12,6 @@ ul.dd > li:hover > ul{left:0;}
 #nav #navbar ul{margin:0;padding:0;height:50px;text-align:center;width:140px;background:#000;list-style:none;top:50px;}
 #nav #navbar li{margin:0;padding:10px 0;height:30px;text-align:center;width:140px;background:#000;}
 #nav #navbar li:hover{background:#ed6e79;}
+#nav #navbar li:hover li{background:#ed6e79;}
 #nav #navbar a{color:#FFF;font-family:headfont,Arial,Helvetica,sans-serif;font-size:.8em;text-decoration:none;}
 #nav #navbar a:hover{text-decoration:underline;}

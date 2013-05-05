@@ -2,11 +2,12 @@
 #footer {
 	width: 100%;
 	background: #000000;
-	position: fixed;
+	position: relative;
 	bottom: 0;
 	height: 122px;
 	text-align: center;
 	z-index: 300;
+	margin-top: 100px;
 }
 
 #footer p {
@@ -20,8 +21,7 @@
 }
 
 #footerlogo {
-	position: fixed;
+	position: absolute;
 	bottom: 4px;
 	left: 0;
-	z-index: 400;
 }

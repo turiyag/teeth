@@ -1,8 +1,8 @@
 
 		<div id="nav">
 			<div id="navage">
-				<a class="navagelink" id="navgrownupslink" href="../grownups"></a>
-				<a class="navagelink" id="navkidslink" href="../kids"></a>
+				<a class="navagelink" id="navgrownupslink" href="/dev/teeth/grownups"></a>
+				<a class="navagelink" id="navkidslink" href="/dev/teeth/kids"></a>
 			</div>
 			<ul id="navbar" class="dd">
 				<li>
@@ -37,7 +37,12 @@
 					</ul>
 				</li>
 				<li>
-					<a href="/dev/teeth/grownups/downloads">DOWNLOADS</a>
+					<a href="/dev/teeth/grownups/extras">EXTRAS</a>
+					<ul>
+						<li><a href="/dev/teeth/grownups/extras/downloads">downloads</a></li>
+						<li><a href="/dev/teeth/grownups/extras/youtube">youtube</a></li>
+						<li><a href="/dev/teeth/grownups/extras/radio">radio</a></li>
+					</ul>
 				</li>
 			</ul>
 		</div>
