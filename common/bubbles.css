@@ -18,19 +18,19 @@
 }
 
 #bubblebox p {
+	position: absolute;
 	text-align: center;
 	font-family: headfont;
 	font-size: 1.3em;
-	position: absolute;
 	color: white;
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	left: 0px;
+	top: 130px;
 }
 
 #bubblebox img {
-	border: none;
 	opacity: 0.4;
 	filter:alpha(opacity=40); /* For IE8 and earlier */
 }

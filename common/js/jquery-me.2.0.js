@@ -203,7 +203,6 @@
 			});
 		}
 		jLink.append('<p>' + opt.text + '</p>');
-		$("#" + opt.id + " p").center({horizontal:false});
 		opt.callback(opt);
 		return this;
 	}

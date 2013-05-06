@@ -1,10 +1,10 @@
 <?xml version="1.0" ?>
 <document>
 	<bubbles>
-		<bubble link="/dev/teeth/kids/facts/" text="facts" pic="" />
-		<bubble link="/dev/teeth/kids/care/" text="brushing and flossing" pic="" />
-		<bubble link="/dev/teeth/kids/facts/bacteria" text="bacteria" pic="" />
-		<bubble link="/dev/teeth/kids/care/toothaches" text="toothaches" pic="" />
+		<bubble link="/dev/teeth/kids/facts/" text="facts" pic="common/img/icons/facts.png" />
+		<bubble link="/dev/teeth/kids/care/" text="brushing and flossing" pic="common/img/icons/brushing.png" />
+		<bubble link="/dev/teeth/kids/facts/bacteria" text="bacteria" pic="common/img/icons/bacteria.png" />
+		<bubble link="/dev/teeth/kids/care/toothaches" text="toothaches" pic="common/img/icons/toothache.png" />
 	</bubbles>
 	<content>
 		<page id="1">
