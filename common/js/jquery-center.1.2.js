@@ -16,14 +16,14 @@
 					$(this).css(props);
 					four = 3;
 					if (options.vertical) {
-						console.log($(options.inside).height() + " - " + $(this).outerHeight() + " / 2");
+						//console.log($(options.inside).height() + " - " + $(this).outerHeight() + " / 2");
 						var top = ($(options.inside).height() - $(this).outerHeight()) / 2;
 						if (options.withScrolling) top += $(options.inside).scrollTop() || 0;
 						top = (top > options.minY ? top : options.minY);
 						$.extend(props, {top: top+'px'});
 					}
 					if (options.horizontal) {
-						console.log($(options.inside).width() + " - " + $(this).outerWidth() + " / 2");
+						//console.log($(options.inside).width() + " - " + $(this).outerWidth() + " / 2");
 						var left = ($(options.inside).width() - $(this).outerWidth()) / 2;
 						if (options.withScrolling) left += $(options.inside).scrollLeft() || 0;
 						left = (left > options.minX ? left : options.minX);

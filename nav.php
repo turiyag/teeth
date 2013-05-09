@@ -13,9 +13,9 @@
 					<a href="/dev/teeth/grownups/body">THE BODY</a>
 					<ul>
 						<li><a href="/dev/teeth/grownups/body/brain">the brain</a></li>
-						<li><a href="/dev/teeth/grownups/body/gut">the gut</a></li>
 						<li><a href="/dev/teeth/grownups/body/mouth">the mouth</a></li>
 						<li><a href="/dev/teeth/grownups/body/tummy">the tummy</a></li>
+						<li><a href="/dev/teeth/grownups/body/gut">the gut</a></li>
 					</ul>
 				</li>
 				<li>

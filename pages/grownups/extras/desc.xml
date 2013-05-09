@@ -2,9 +2,8 @@
 <document>
 	<bubbles>
 		<bubble link="/dev/teeth/grownups/extras/radio" text="radio" pic="common/img/icons/radio.png" />
-		<bubble link="/dev/teeth/grownups/body/" text="the body" pic="common/img/icons/adult.png" />
 		<bubble link="/dev/teeth/grownups/extras/downloads" text="downloads" pic="common/img/icons/downloads.png" />
-		<bubble link="/dev/teeth/grownups/extras/youtube" text="youtube" pic="common/img/icons/youtube.png" />
+		<bubble link="http://www.youtube.com/user/goodtoothdr" text="youtube" pic="common/img/icons/youtube.png" />
 		<bubble link="/dev/teeth/grownups/facts/stats" text="stats" pic="common/img/icons/stats.png" />
 	</bubbles>
 	<content>
@@ -13,7 +12,14 @@
 			</bubbles>
 			<head>Extras</head>
 			<body>
-Lorem ipsum dolor sit amet.
+Explore our extra resources to learn more about dental hygiene!
+
+
+
+Check out <a href="http://home.edgemontgeek.com/dev/teeth/grownups/extras/radio/">interviews</a> with Dr. Goodtooth.
+
+Dr. Goodtooth's <a href="http://www.youtube.com/user/goodtoothdr">Youtube Channel</a> features videos
+about dental caries and <a href="http://home.edgemontgeek.com/dev/teeth/grownups/facts/toxicstress/">toxic stress</a>.
 			</body>
 		</page>
 	</content>

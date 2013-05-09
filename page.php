@@ -44,16 +44,16 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Dr. Good Tooth</title>
-	<link rel="stylesheet" type="text/css" href="common/style.css" />
-	<script type="text/javascript" src="common/js/jquery-1.9.1.min.js"></script>
-	<script type="text/javascript" src="common/js/jquery-center.1.2.js"></script>
-	<script type="text/javascript" src="common/js/jquery-wander.1.1.js"></script>
-	<script type="text/javascript" src="common/js/jquery-me.2.0.js"></script>
-	<script type="text/javascript" src="common/js/excanvas.compiled.js"></script>
-	<script type="text/javascript" src="common/js/main.js"></script>
-	<script type="text/javascript" src="common/js/modernizr.touch.js"></script>
+	<link rel="stylesheet" type="text/css" href="/dev/teeth/common/style.css" />
+	<script type="text/javascript" src="/dev/teeth/common/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="/dev/teeth/common/js/jquery-center.1.2.js"></script>
+	<script type="text/javascript" src="/dev/teeth/common/js/jquery-wander.1.1.js"></script>
+	<script type="text/javascript" src="/dev/teeth/common/js/jquery-me.2.0.js"></script>
+	<script type="text/javascript" src="/dev/teeth/common/js/excanvas.compiled.js"></script>
+	<script type="text/javascript" src="/dev/teeth/common/js/main.js"></script>
+	<script type="text/javascript" src="/dev/teeth/common/js/modernizr.touch.js"></script>
 	<script type="text/javascript">
-		$(function() {
+		$(window).load(function(){
 			loadBubbles([
 				<?php
 					echo implode(",",$bubbles);

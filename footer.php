@@ -6,5 +6,5 @@
 				<i>Hours</i> Monday - Friday, 7:30am - 3:00pm<br />
 				10601 Southport Rd. S.W. Suite 314, Calgary, AB, Canada T2W3M6<br />
 			</p>
-			<img id="footerlogo" src="common/img/footerlogo.png" />
+			<img id="footerlogo" src="common/img/logosmall.png" />
 		</div>

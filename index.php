@@ -29,7 +29,7 @@
 			}
 			$("#kidspic").hoverOrClick(function(event) {
 				event.preventDefault();
-				$("#kidspopup").animate({top:"5px"},iAnimationTime);
+				$("#kidspopup").animate({top:"-5px"},iAnimationTime);
 			}, function(event) {
 				event.preventDefault();
 				$("#kidspopup").animate({top:"100px"},iAnimationTime);
@@ -47,7 +47,7 @@
 
 
 <body>
-	<img id="splashfooter" src="img/logo.png" alt="logo" />
+	<img id="splashfooter" src="common/img/logosmall.png" alt="logo" />
 	<div id="splashpopups">
 		<p id="kidspopup">kids</p>
 		<p id="grownupspopup">grown-ups</p>

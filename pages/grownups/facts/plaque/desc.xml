@@ -1,9 +1,9 @@
 <?xml version="1.0" ?>
 <document>
 	<bubbles>
-		<bubble link="/dev/teeth/grownups/facts/bacteria/" text="bacteria" pic="" />
+		<bubble link="/dev/teeth/grownups/facts/bacteria/" text="bacteria" pic="common/img/icons/bacteria.png" />
 		<bubble link="/dev/teeth/grownups/facts/stats/" text="stats" pic="common/img/icons/stats.png" />
-		<bubble link="/dev/teeth/grownups/facts/toxicstress/" text="toxic stress" pic="" />
+		<bubble link="/dev/teeth/grownups/facts/toxicstress/" text="toxic stress" pic="common/img/icons/toxicstress.png" />
 		<bubble link="/dev/teeth/grownups/care/adult/" text="adult care" pic="common/img/icons/adult.png" />
 	</bubbles>
 	<content>
@@ -12,9 +12,15 @@
 			</bubbles>
 			<head>Plaque</head>
 			<body>
-Plaque is a layer of combined saliva, <a href="http://home.edgemontgeek.com/dev/teeth/grownups/facts/bacteria/">bacteria</a>, and food. It is called a biofilm, because it creates a film of living bacteria on teeth. The bacteria collect and bind themselves to teeth.
+Plaque is a layer of combined saliva, <a href="http://home.edgemontgeek.com/dev/teeth/grownups/facts/bacteria/">bacteria</a>, and food.
+It is called a biofilm, because it creates a film of living bacteria on teeth.
 
-Plaque can cause teeth to change colours. It can cause teeth to become yellow, orange, or brown.
+The bacteria in the biofilm continue to excrete acid that dissolves your teeth.
+The film prevents your saliva from washing away the acid,
+so your teeth do not get a chance to heal the dissolved enamel.
+
+Plaque can cause teeth to change colours.
+It can cause teeth to become yellow, orange, or brown.
 			</body>
 		</page>
 	</content>

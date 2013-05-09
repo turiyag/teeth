@@ -2,20 +2,27 @@
 <document>
 	<bubbles>
 		<bubble link="/dev/teeth/grownups/extras/radio" text="radio" pic="common/img/icons/radio.png" />
-		<bubble link="/dev/teeth/grownups/body/" text="the body" pic="common/img/icons/adult.png" />
 		<bubble link="/dev/teeth/grownups/extras/downloads" text="downloads" pic="common/img/icons/downloads.png" />
-		<bubble link="/dev/teeth/grownups/extras/youtube" text="youtube" pic="common/img/icons/youtube.png" />
+		<bubble link="http://www.youtube.com/user/goodtoothdr" text="youtube" pic="common/img/icons/youtube.png" />
 		<bubble link="/dev/teeth/grownups/facts/stats" text="stats" pic="common/img/icons/stats.png" />
 	</bubbles>
 	<content>
 		<page id="1">
 			<bubbles>
 			</bubbles>
-			<head>Extras</head>
+			<head>Radio</head>
 			<body>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium convallis arcu at posuere. Integer rhoncus ullamcorper velit eget gravida. Nunc id nibh dolor, quis imperdiet purus. 
+Listen to these radio interviews with Dr. Goodtooth on
+Genisis Global Radio: The Origin of Information.
+
+In this interview, Dr. Goodtooth discusses Early Childhood Caries,
+or cavities known as baby bottle decay.
+He discusses the causes and prevention of decay,
+as well as flossing, and the complications related to tooth decay.
 <a href="/dev/teeth/common/files/radio1.mp3">Radio Interview 1</a>
-Sed interdum nunc non mauris lobortis viverra. Cras lacus orci, mollis vitae congue ut, cursus et mi. Duis venenatis faucibus magna vulputate dignissim. Suspendisse ultricies malesuada purus ac malesuada. Quisque vehicula, risus vitae cursus tincidunt, eros eros suscipit massa, in iaculis tellus nisl eu metus.
+
+In this interview, Dr. Goodtooh discusses how to clean teeth,
+as well as plaque, decay, and the lifelong effects of decay.
 <a href="/dev/teeth/common/files/radio2.mp3">Radio Interview 2</a>
 			</body>
 		</page>

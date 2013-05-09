@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <document>
 	<bubbles>
-		<bubble link="/dev/teeth/grownups/facts/bacteria/" text="bacteria" pic="" />
+		<bubble link="/dev/teeth/grownups/facts/bacteria/" text="bacteria" pic="common/img/icons/bacteria.png" />
 		<bubble link="/dev/teeth/grownups/facts/stats/" text="stats" pic="common/img/icons/stats.png" />
 		<bubble link="/dev/teeth/grownups/facts/plaque/" text="plaque" pic="common/img/icons/demineralization.png" />
 		<bubble link="/dev/teeth/grownups/care/adult/" text="adult care" pic="common/img/icons/adult.png" />
@@ -12,7 +12,17 @@
 			</bubbles>
 			<head>Toxic Stress</head>
 			<body>
-Toxic stress is stress caused in childhood that cannot be alleviated by parental support. Toxic stress can cause a diverse range of negative effects in childhood and throughout life. It is linked with addiction, poor impulse control, poor mood control, anxiety, learning disabilities, and impaired memory. Toxic stress causes the brain to develop in environment of constant stress input.
+Toxic stress is stress caused in childhood that cannot
+be alleviated by parental support.
+
+Toxic stress can cause a diverse range of negative effects
+in childhood and throughout life.
+
+It is linked with addiction, poor impulse control,
+poor mood control, anxiety, learning disabilities, and impaired memory.
+
+Toxic stress causes the <a href="http://home.edgemontgeek.com/dev/teeth/grownups/body/brain/">brain</a> to develop in an
+environment of constant stress input.
 			</body>
 		</page>
 		<page id="2">
@@ -20,7 +30,17 @@ Toxic stress is stress caused in childhood that cannot be alleviated by parental
 			</bubbles>
 			<head>Toxic Stress</head>
 			<body>
- Children who suffer from dental decay suffer constant pain. They will avoid eating many foods, and will have their sleep interrupted by the pain. Without proper nutrition and rest, children’s development is severely impacted. Chronic pain also causes changes in the brain’s development. Children who experience constant pain or discomfort have a brain that learns to never feel comfortable,
+ Children who suffer from dental decay suffer constant pain.
+ 
+ They will avoid eating many foods,
+ and will have their sleep interrupted by the pain.
+ Without proper nutrition and rest,
+ children’s development is severely impacted.
+ 
+ Chronic pain also causes changes in the <a href="http://home.edgemontgeek.com/dev/teeth/grownups/body/brain/">brain's</a> development.
+ 
+ Children who experience constant pain or discomfort have a
+ <a href="http://home.edgemontgeek.com/dev/teeth/grownups/body/brain/">brain</a> that learns to never feel comfortable,
  and is only ever under stress.
 			</body>
 		</page>
